@@ -32,6 +32,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define PRODUCT         QMK USB-USB Converter
 #define DESCRIPTION     USB to USB Keyboard Converter with QMK
 
+/*mouse params*/
+#define MOUSEKEY_INTERVAL 32
+#define MOUSEKEY_DELAY 0
+#define MOUSEKEY_TIME_TO_MAX 30
+#define MOUSEKEY_MAX_SPEED 12
+#define MOUSEKEY_WHEEL_DELAY 0
+#define MOUSEKEY_WHEEL_MAX_SPEED 10  
+#define MOUSEKEY_WHEEL_TIME_TO_MAX 30
+
 /* size of virtual matrix */
 #define MATRIX_ROWS 16
 #define MATRIX_COLS 16

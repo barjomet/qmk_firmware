@@ -22,10 +22,19 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* USB Device descriptor parameter */
 #define VENDOR_ID       0xFEED
-#define PRODUCT_ID      0x6060
-#define MANUFACTURER    OLKB
-#define PRODUCT         Planck
-#define DESCRIPTION     A compact ortholinear keyboard
+#define PRODUCT_ID      0x0381
+#define MANUFACTURER    LAZ
+#define PRODUCT         Avtobus
+#define DESCRIPTION     Safety in Zeroes
+
+/*mouse params*/
+#define MOUSEKEY_INTERVAL 32
+#define MOUSEKEY_DELAY 0
+#define MOUSEKEY_TIME_TO_MAX 30
+#define MOUSEKEY_MAX_SPEED 12
+#define MOUSEKEY_WHEEL_DELAY 0
+#define MOUSEKEY_WHEEL_MAX_SPEED 10  
+#define MOUSEKEY_WHEEL_TIME_TO_MAX 30
 
 /* key matrix size */
 #define MATRIX_ROWS 4
